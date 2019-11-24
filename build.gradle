@@ -4,7 +4,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     signingConfigs {
         debug {
-            storeFile file('/Users/kevincheung/OneDrive/Documents/Second Year/AndroidFiles/Keystore')
+            storeFile file('/Keystore')
             storePassword 'test123'
             keyAlias = 'key0'
             keyPassword 'test123'
